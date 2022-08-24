@@ -31,11 +31,7 @@ public class Electrodomestico {
 
     public Electrodomestico (String nom, double precio){
 
-        this.nombre = nom;
-        this.precioBase = precio;
-        this.color = "Gris Plata";
-        this.consumo = 10;
-        this.peso = 2;
+        this(nom,precio,VALOR_DEF_COLOR,VALOR_DEF_CONSUMO,VALOR_DEF_PESO);
     }
 
     public Electrodomestico (String nom, double precio, String col ){
